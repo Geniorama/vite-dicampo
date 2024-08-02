@@ -2,7 +2,7 @@ import DicampoLogo from "./assets/Dicampo - Logo fondo transparente.png";
 import Form from "./components/Form/Form";
 import "./App.css";
 import client from "./lib/contentful";
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import type { Empresa } from "./types";
 
 function App() {
