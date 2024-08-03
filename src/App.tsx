@@ -27,7 +27,7 @@ function App() {
   }
 
   return (
-    <div className="flex justify-center items-center h-screen p-4">
+    <div className="flex justify-center items-center p-4">
       <div className="max-w-[600px] mx-auto w-full">
         <img className="max-w-[300px] mx-auto" src={DicampoLogo} alt="" />
         <Form />

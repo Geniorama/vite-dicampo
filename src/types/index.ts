@@ -1,5 +1,5 @@
 export type Empresa = {
-    id: string,
+    id?: string,
     nombre: string,
     nombreContacto: string,
     barrio?: string,
@@ -7,4 +7,5 @@ export type Empresa = {
     correo: string,
     direccion: string,
     ciudadMunicipio: string,
+    departamento?: string
 }
