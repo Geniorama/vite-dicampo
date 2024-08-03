@@ -27,6 +27,7 @@ export default function Form() {
 
   const { register, handleSubmit, formState: {errors} }  = useForm<FormData>()
 
+  console.log(errors)
   useEffect(() => {
     async function getDptos() {
       const urlApi =
